@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="FzFEGtmN5pely2cgAyxk" name="Page-1">
-        <mxGraphModel dx="1420" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="979" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -238,74 +238,92 @@
                 <mxCell id="87" value="'rejected' means an error occurred during the request" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="580" y="1860" width="185" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="88" value="Creating an Async Thunk" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+                <mxCell id="88" value="Creating an Async Thunk" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
                     <mxGeometry x="300" y="1960" width="290" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="89" value="" style="group;fontSize=20;" vertex="1" connectable="0" parent="1">
+                <mxCell id="89" value="" style="group;fontSize=20;" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="120" y="2000" width="600" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="90" value="Create a new file for your thunk. Name it after the purpose of the request" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="89">
+                <mxCell id="90" value="Create a new file for your thunk. Name it after the purpose of the request" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" parent="89" vertex="1">
                     <mxGeometry x="48.648648648648646" width="551.3513513513514" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="91" value="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#99CCFF;" vertex="1" parent="89">
+                <mxCell id="91" value="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#99CCFF;" parent="89" vertex="1">
                     <mxGeometry width="48.648648648648646" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="92" value="" style="group;fontSize=20;" vertex="1" connectable="0" parent="1">
+                <mxCell id="92" value="" style="group;fontSize=20;" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="120" y="2050" width="600" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="93" value="Create the thunk. Give it a base type (&lt;i&gt;user/fetch/pending&lt;/i&gt; -&amp;gt; base type is &lt;i&gt;user/fetch&lt;/i&gt;) that describes the purpose of the request" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="92">
+                <mxCell id="93" value="Create the thunk. Give it a base type (&lt;i&gt;user/fetch/pending&lt;/i&gt; -&amp;gt; base type is &lt;i&gt;user/fetch&lt;/i&gt;) that describes the purpose of the request" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" parent="92" vertex="1">
                     <mxGeometry x="48.648648648648646" width="551.3513513513514" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="94" value="2" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#99CCFF;" vertex="1" parent="92">
+                <mxCell id="94" value="2" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#99CCFF;" parent="92" vertex="1">
                     <mxGeometry width="48.648648648648646" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="95" value="" style="group;fontSize=20;" vertex="1" connectable="0" parent="1">
+                <mxCell id="95" value="" style="group;fontSize=20;" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="120" y="2100" width="600" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="96" value="In the thunk, make the request, return the data that you want to use in the reducer" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="95">
+                <mxCell id="96" value="In the thunk, make the request, return the data that you want to use in the reducer" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" parent="95" vertex="1">
                     <mxGeometry x="48.648648648648646" width="551.3513513513514" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="97" value="3" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#99CCFF;" vertex="1" parent="95">
+                <mxCell id="97" value="3" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#99CCFF;" parent="95" vertex="1">
                     <mxGeometry width="48.648648648648646" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="98" value="" style="group;fontSize=20;" vertex="1" connectable="0" parent="1">
+                <mxCell id="98" value="" style="group;fontSize=20;" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="120" y="2150" width="600" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="99" value="In the slice, add extraReducers, watching for the action types made by the thunk" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="98">
+                <mxCell id="99" value="In the slice, add extraReducers, watching for the action types made by the thunk" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" parent="98" vertex="1">
                     <mxGeometry x="48.648648648648646" width="551.3513513513514" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="100" value="4" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#99CCFF;" vertex="1" parent="98">
+                <mxCell id="100" value="4" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#99CCFF;" parent="98" vertex="1">
                     <mxGeometry width="48.648648648648646" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="101" value="" style="group;fontSize=20;" vertex="1" connectable="0" parent="1">
+                <mxCell id="101" value="" style="group;fontSize=20;" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="120" y="2200" width="600" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="102" value="Export the thunk from the store.index.js file" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="101">
+                <mxCell id="102" value="Export the thunk from the store.index.js file" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" parent="101" vertex="1">
                     <mxGeometry x="48.648648648648646" width="551.3513513513514" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="103" value="5" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#99CCFF;" vertex="1" parent="101">
+                <mxCell id="103" value="5" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#99CCFF;" parent="101" vertex="1">
                     <mxGeometry width="48.648648648648646" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="104" value="" style="group;fontSize=20;" vertex="1" connectable="0" parent="1">
+                <mxCell id="104" value="" style="group;fontSize=20;" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="120" y="2250" width="600" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="105" value="When a user does something, dispatch the thunk function to run it" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="104">
+                <mxCell id="105" value="When a user does something, dispatch the thunk function to run it" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" parent="104" vertex="1">
                     <mxGeometry x="48.648648648648646" width="551.3513513513514" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="106" value="6" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#99CCFF;" vertex="1" parent="104">
+                <mxCell id="106" value="6" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#99CCFF;" parent="104" vertex="1">
                     <mxGeometry width="48.648648648648646" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="107" value="&lt;font color=&quot;#000000&quot;&gt;payload&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#99CCFF;" vertex="1" parent="1">
+                <mxCell id="107" value="&lt;font color=&quot;#000000&quot;&gt;payload&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#99CCFF;" parent="1" vertex="1">
                     <mxGeometry x="580" y="1320" width="80" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="108" value="&lt;font color=&quot;#000000&quot;&gt;returned data after fetch&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#99CCFF;" vertex="1" parent="1">
+                <mxCell id="108" value="&lt;font color=&quot;#000000&quot;&gt;returned data after fetch&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#99CCFF;" parent="1" vertex="1">
                     <mxGeometry x="660" y="1320" width="80" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="109" value="&lt;font color=&quot;#000000&quot;&gt;error&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#99CCFF;" vertex="1" parent="1">
+                <mxCell id="109" value="&lt;font color=&quot;#000000&quot;&gt;error&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#99CCFF;" parent="1" vertex="1">
                     <mxGeometry x="590" y="1810" width="80" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="110" value="&lt;font color=&quot;#000000&quot;&gt;error after fetch&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#99CCFF;" vertex="1" parent="1">
+                <mxCell id="110" value="&lt;font color=&quot;#000000&quot;&gt;error after fetch&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#99CCFF;" parent="1" vertex="1">
                     <mxGeometry x="670" y="1810" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="&lt;font color=&quot;#ffffff&quot;&gt;Loading Problems&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;On real projects, recommending use Redux Toolkit Query, which manages this loading state for you&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="2420" width="550" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="&lt;font color=&quot;#000000&quot;&gt;Option #1:&lt;br&gt;Move all loading + error state to components&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#FFFF99;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="2520" width="200" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" value="&lt;font color=&quot;#000000&quot;&gt;This might be a useful technique in some corner cases&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#99CCFF;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="2520" width="360" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" value="&lt;font color=&quot;#000000&quot;&gt;Tedious to implement, so we will create a custom hook. More hook practice!&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#99CCFF;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="2560" width="360" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="&lt;font color=&quot;#000000&quot;&gt;Useful example to better understand async thunks&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#99CCFF;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="2600" width="360" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="&lt;font color=&quot;#000000&quot;&gt;You might have to work on a project that uses Option #1&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#99CCFF;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="2640" width="360" height="40" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
