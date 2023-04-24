@@ -3,8 +3,26 @@
     {
       "name": "Terence Yost",
       "id": 1
+    },
+    {
+      "name": "Shari Mohr",
+      "id": 2
+    },
+    {
+      "name": "Allen Boyle IV",
+      "id": 3
+    },
+    {
+      "name": "Ms. Sammy Prosacco",
+      "id": 4
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "title": "Hiking Trip",
+      "id": 10,
+      "userId": 1
+    }
+  ],
   "photos": []
 }
