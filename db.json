@@ -19,10 +19,41 @@
   ],
   "albums": [
     {
-      "title": "Hiking Trip",
-      "id": 10,
-      "userId": 1
+      "userId": 1,
+      "title": "Gorgeous Wooden Towels",
+      "id": 21
+    },
+    {
+      "userId": 1,
+      "title": "Handmade Wooden Gloves",
+      "id": 22
+    },
+    {
+      "userId": 1,
+      "title": "Bespoke Wooden Bike",
+      "id": 23
+    },
+    {
+      "userId": 1,
+      "title": "Modern Metal Shoes",
+      "id": 24
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "albumId": 21,
+      "url": "https://loremflickr.com/150/150/abstract?lock=70695",
+      "id": 1
+    },
+    {
+      "albumId": 21,
+      "url": "https://loremflickr.com/150/150/abstract?lock=44550",
+      "id": 2
+    },
+    {
+      "albumId": 21,
+      "url": "https://loremflickr.com/150/150/abstract?lock=4929",
+      "id": 3
+    }
+  ]
 }

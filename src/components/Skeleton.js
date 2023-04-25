@@ -1,6 +1,6 @@
 import classNames from "classnames";
 
-function Skeleton({ time, className }) {
+function Skeleton({ times, className }) {
   const outerClassNames = classNames(
     "relative",
     "overflow-hidden",
@@ -21,7 +21,7 @@ function Skeleton({ time, className }) {
     className
   );
 
-  const boxes = Array(time)
+  const boxes = Array(times)
     .fill(0)
     .map((_, i) => {
       return (
